@@ -3,3 +3,5 @@ El comienzo de este programa
 El segundo commit "Letras parecidad" determina cuales letras se parecen y cuales no.
 
 El tercer commit "Optimizacion del codigo". Agregue las funciones 'menu' y 'parecido'. La funcion 'menu' para la entrada de texto y la funcion 'parecido' para determinar que tan parecida es una palabra con otra.
+
+El cuarto commit "Optimizacion del codigo 2". Ahora la funcion 'parecido' determina cuales palabras son tiene el mismo tamaño y las envian a la funcion 'letra'. En la funcion 'letra' determina si hay alguna palabra parecida y la corrige si es nesesario de lo contrario pide que se vulva a escribir.
