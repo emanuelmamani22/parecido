@@ -21,8 +21,17 @@ def letras (a,k):
     if p1 >=3 :
         print "Quizas quiso decir "+b
     elif p2 >= 3 :
-        print "Vuelva a escribir porfavor"
-        menu() #fin de la funcion
+        print "Funcion letras" #borrar
+        print "1. La palabra es correcta"
+        print "2. Vuelva a escribir porfavor"
+        
+        op=input('Ingrese la opcion deseada')
+        if op == 1 :
+            bb=[]
+            bb.append(k)
+            letras(bb,k)
+        elif op == 2 :
+            menu() #fin de la funcion
 
 
 def parecido (a): #funcion parecido
@@ -34,6 +43,17 @@ def parecido (a): #funcion parecido
         if len(a) == len(lista[contl]) :
             b.append(lista[contl])
         contl=contl+1
+        
+    if len(b) == 0 :
+        print "Funcion parecido" #borrar
+        print "1. La palabra es correcta"
+        print "2. Volver a escribir"
+        op=input('Elija la opcion: ')
+        
+        if op == 1  :
+            b.append(a)
+        elif op == 2 :
+            menu()
     letras(b,a)
 
 def menu (): #menu principal
