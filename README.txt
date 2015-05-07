@@ -10,3 +10,5 @@ El quinto commit "Condicionales". En la funcion 'parecido' si la palabra escrita
 La funcion 'letras' tiene un condicional en caso de la palabra tenga el mismo tamaño que alguna palabra de la lista pero que no coincidan. entonces pregunta si la palabra es correcta la agrega a la lsta de lo contrario pide que se vuelva a escribir.
 
 El sexto commit "correccion". En la funcion 'letras' ahora la correccion la hace dentro del while y corregido un pequeño error en la iteracion en el ciclo for.
+
+El septimo commit "correccion 2". En la funcion 'letras' solucione un problema en la itaracion y cambie un ELIF por un ELSE, porque de esa manera es mas optimo. En la funcion parecido Cambie un ELIF por un ELSE porque de esa manera es mas optimo.

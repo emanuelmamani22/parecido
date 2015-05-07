@@ -8,3 +8,5 @@ El cuarto commit "Optimizacion del codigo 2". Ahora la funcion 'parecido' determ
 
 El quinto commit "Condicionales". En la funcion 'parecido' si la palabra escrita es de menor o mayor tamaño de las que hay en la lista estonces pregunta si la palabra escrita es correcta de lo contrario pide que vuelva a escribir la palabra.
 La funcion 'letras' tiene un condicional en caso de la palabra tenga el mismo tamaño que alguna palabra de la lista pero que no coincidan. entonces pregunta si la palabra es correcta la agrega a la lsta de lo contrario pide que se vuelva a escribir.
+
+El sexto commit "correccion". En la funcion 'letras' ahora la correccion la hace dentro del while y corregido un pequeño error en la iteracion en el ciclo for.

@@ -1,12 +1,14 @@
 def letras (a,k):
+    y=False
     for f in a :
+        if y == True :
+            break
         cont=0
         cont2=0
         p1=0
         p2=0
         contl=0
         if k == f :
-            print 'hola'
             print "Hola"
         elif k != f :
             b=f
@@ -16,6 +18,7 @@ def letras (a,k):
                     p1=p1+1
                     if p1 >=3 :
                         print "Quizas quiso decir "+b
+                        y=True
                         break
                 elif k[cont] != b[cont2] :
                     p2=p2+1
@@ -31,7 +34,7 @@ def letras (a,k):
             bb=[]
             bb.append(k)
             letras(bb,k)
-        elif op == 2 :
+        else:
             menu() #fin de la funcion
 
 def parecido (a): #funcion parecido
@@ -52,7 +55,7 @@ def parecido (a): #funcion parecido
         
         if op == 1  :
             b.append(a)
-        elif op == 2 :
+        else:
             menu()
     letras(b,a)
 
