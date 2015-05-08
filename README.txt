@@ -12,3 +12,5 @@ La funcion 'letras' tiene un condicional en caso de la palabra tenga el mismo ta
 El sexto commit "correccion". En la funcion 'letras' ahora la correccion la hace dentro del while y corregido un pequeño error en la iteracion en el ciclo for.
 
 El septimo commit "correccion 2". En la funcion 'letras' solucione un problema en la itaracion y cambie un ELIF por un ELSE, porque de esa manera es mas optimo. En la funcion parecido Cambie un ELIF por un ELSE porque de esa manera es mas optimo.
+
+El octavo commit "buscar palabra". La funcion 'buscar' hace una itaracion de la lista que le envia la funcion 'parecido' para determinar si hay una palabra igual a la palabra ingresada si no hay ninguna llama a la funcion 'letras'.
